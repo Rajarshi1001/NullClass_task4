@@ -29,7 +29,8 @@ pip install "tensorflow<2.11"
 
 5. Install necessary libraries for audio and speech input and identification
 ```bash
+pip install numpy
 pip install pytz SpeechRecognition pyaudio
 ```
 
-The same environment `nullclass` can be used for running notebooks for other tasks as well. Now run the notebook named `task4.ipynb`.
+The same environment `nullclass` can be used for running notebooks for other tasks as well. Now run the notebook named `task4.ipynb`. The GUI for the task 4 is implemented in the file named `gui_task4.py`.
