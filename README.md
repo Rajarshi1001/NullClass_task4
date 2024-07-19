@@ -15,22 +15,20 @@ conda create --name nullclass python=3.9
 ```bash
 conda activate nullclass
 ```
-3. Install cudnn plugin
-```bash
-conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
-```
 
-4. Install tensorflow
+3. Install tensorflow
 ```bash
 pip install --upgrade pip
 # Anything above 2.10 is not supported on the GPU on Windows Native
 pip install "tensorflow<2.11" 
 ```
 
-5. Install necessary libraries for audio and speech input and identification
+4. Install necessary libraries for audio and speech input and identification
 ```bash
 pip install numpy
 pip install pytz SpeechRecognition pyaudio
 ```
 
 The same environment `nullclass` can be used for running notebooks for other tasks as well. Now run the notebook named `task4.ipynb`. The GUI for the task 4 is implemented in the file named `gui_task4.py`.
+
+
